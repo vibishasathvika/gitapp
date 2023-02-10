@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+}
+.todo-container{
+    width: 350px;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    right: 50%;
+    
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
+.input-section{
+    background-color: #055565;
+
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #00000066;
+
+}
+
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #055565;
+
+    outline: none;
+    color: white;
+    font-size: medium;
+
+}
+input::placeholder{
+    color:white;
+
+    
+}
+ul{
+   
+    
+    text-align: left;
+    padding: 0;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    background-color: #055565;
+
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom:10px ;
+    color: white;
+    box-shadow: 0 4px 6px #00000066;
+    font-size: medium;
+
+}
+ul li button{
+    text-align: right;
+    flex: 1;
+    color:lightskyblue;
+    background-color: #055565;
+    outline: none;
+    border: none;
+
+}
+.button{
+    background-color: #055565;
+    box-shadow: 0 4px 6px #00000066;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 15px;
+
+}
+.restbutton{
+    background-color: #055565;
+    box-shadow: 0 4px 6px #00000066;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 15px;
+    
+
+}
